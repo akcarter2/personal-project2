@@ -1,14 +1,14 @@
 .feature {
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   background: white;
   margin-top: 50px;
-  box-shadow: 0 1rem 3rem #E2EFF7;
+  box-shadow: 0 1rem 3rem #e2eff7;
 }
 .feature2 {
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -17,7 +17,7 @@
   box-shadow: 0 1rem 3rem #f80501;
 }
 .feature3 {
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -26,12 +26,15 @@
   box-shadow: 0 1rem 3rem #018b05;
 }
 
-
 /* Responsive Media Queries Section */
-@media only screen and (max-width: 768) {
-
+@media only screen and (min-width: 768px) {
+  .intro {
+    content: url(../images/background.png);
+    width: 100%;
+    height: auto;
+  }
 }
 
-@media only screen and (max-width: 992) {
-
+@media only screen and (min-width: 992) {
+  
 }
