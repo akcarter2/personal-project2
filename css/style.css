@@ -1,0 +1,37 @@
+.feature {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background: white;
+  margin-top: 50px;
+  box-shadow: 0 1rem 3rem #E2EFF7;
+}
+.feature2 {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background: white;
+  margin-top: 50px;
+  box-shadow: 0 1rem 3rem #f80501;
+}
+.feature3 {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background: white;
+  margin-top: 50px;
+  box-shadow: 0 1rem 3rem #018b05;
+}
+
+
+/* Responsive Media Queries Section */
+@media only screen and (max-width: 768) {
+
+}
+
+@media only screen and (max-width: 992) {
+
+}
