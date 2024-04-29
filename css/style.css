@@ -1,3 +1,12 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;");
+
+html {
+  height: -webkit-fill-available;
+}
+body {
+  height: -webkit-fill-available;
+} */
+
 .feature {
   display: block;
   margin-left: auto;
@@ -33,8 +42,28 @@
     width: 100%;
     height: auto;
   }
+  .card-img-overlay .card-title {
+    content: "@media";
+  }
+  .card-img-overlay .card-text:p {
+    content: "About the Farm";
+  }
+  .card-img-overlay .card-text:last-child {
+    content: "About the Farmers";
+  }
 }
-
+/* Mobile device landscape */
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+  .intro {
+    content: url(../images/hero.png) !important;
+    width: 100%;
+    height: auto;
+  }
+}
 @media only screen and (min-width: 992) {
-  
+  .intro {
+    content: url(../video/Bell\ Peppers_\ 12\ Amazing\ Health\ Benefits\ For\ Your\ Health\ _\ Health\ And\ Nutrition.mp4);
+    width: 100%;
+    height: auto;
+  }
 }
