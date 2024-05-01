@@ -35,6 +35,7 @@ body {
   box-shadow: 0 1rem 3rem #018b05;
 }
 
+
 /* Responsive Media Queries Section */
 @media only screen and (min-width: 768px) {
   .intro {
@@ -53,17 +54,37 @@ body {
   }
 }
 /* Mobile device landscape */
-@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+/* @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
   .intro {
     content: url(../images/hero.png) !important;
     width: 100%;
     height: auto;
   }
-}
-@media only screen and (min-width: 992) {
-  .intro {
-    content: url(../video/Bell\ Peppers_\ 12\ Amazing\ Health\ Benefits\ For\ Your\ Health\ _\ Health\ And\ Nutrition.mp4);
-    width: 100%;
-    height: auto;
+  .ratio {
+    display: none;
   }
+
+} */
+
+@media screen and (min-width: 992px) {
+  .hero-card {
+    display: none;
+  }
+}
+
+/* for video to not show till needed - big screen */
+@media screen and (max-width: 992px) {
+  .ratio {
+    display:  none;
+  }
+}
+
+
+/* START OF ABOUT HTML NOTES */
+.about-hero {
+  height: 300px;
+  background-image: url(../images/abouthero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
