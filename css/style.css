@@ -36,7 +36,7 @@ body {
 }
 
 
-/* Responsive Media Queries Section */
+/* Responsive Media Queries Section HOME PAGE*/
 @media only screen and (min-width: 768px) {
   .intro {
     content: url(../images/background.png);
@@ -53,18 +53,7 @@ body {
     content: "About the Farmers";
   }
 }
-/* Mobile device landscape */
-/* @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
-  .intro {
-    content: url(../images/hero.png) !important;
-    width: 100%;
-    height: auto;
-  }
-  .ratio {
-    display: none;
-  }
 
-} */
 
 @media screen and (min-width: 992px) {
   .hero-card {
@@ -81,12 +70,11 @@ body {
 
 
 /* START OF ABOUT HTML NOTES */
-.about-hero {
-  height: 300px;
-  background-image: url(../images/abouthero.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+@media only screen and (min-width: 768px) {
+  .about-hero {
+    content: url(../images/abouthero.jpg);
+    width: 100%;
+    height: auto;
+  } }
 
 /* START OF LOGIN HTML NOTES */
