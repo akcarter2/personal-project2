@@ -77,6 +77,10 @@ body {
     height: auto;
   } }
 
+  .about-section {
+    display:;
+  }
+
 /* START OF LOGIN HTML NOTES */
 .container {
  background-color: transparent !important;
