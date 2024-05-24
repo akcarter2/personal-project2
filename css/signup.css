@@ -1,3 +1,5 @@
+
+
 body, html {
     height: 100%;
   }
@@ -56,4 +58,10 @@ body, html {
   
   .btn:hover {
     opacity: 1;
+  }
+
+  .wrapper {
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
   }

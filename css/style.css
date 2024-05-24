@@ -72,13 +72,17 @@ body {
 /* START OF ABOUT HTML NOTES */
 @media only screen and (min-width: 768px) {
   .about-hero {
-    content: url(../images/abouthero.jpg);
+    content: url(../images/hero.png);
     width: 100%;
     height: auto;
-  } }
+  } 
+}
 
-  .about-section {
-    display:;
+  
+  .about-group>img {
+    width: 1000px;
+    height: 700px;
+
   }
 
 /* START OF LOGIN HTML NOTES */
